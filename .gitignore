@@ -1,0 +1,11 @@
+*.cache
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.tlog
+*.log
+config/clink_history_*
