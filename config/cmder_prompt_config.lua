@@ -10,7 +10,7 @@ prompt_type = "full"
 --- REQUIRED. config_prompt_useHomeSymbol is whether to show ~ instead of the full path to the user's home folder
  -- Use true or false
  -- default is false
-prompt_useHomeSymbol = true
+prompt_useHomeSymbol = false
 
 -- Symbols
 -- REQUIRED. Prompt displayed instead of user's home folder e.g. C:\Users\username
@@ -23,7 +23,7 @@ prompt_lambSymbol = "λ"
 
 -- REQUIRED. Adds [user]@[host] to the beginning of the prompt like bash
  -- default is false
-prompt_useUserAtHost = true
+prompt_useUserAtHost = false
 
 -- REQUIRED. If true prompt is a single line instead of default two line prompt.
  -- default is false
@@ -53,7 +53,7 @@ prompt_overrideSvnStatusOptIn = false
 -- Light Grey: "\x1b[1;30;49m"
 
 -- Prompt Element Colors
-uah_color = "\x1b[1;32;49m" -- Green = uah = [user]@[hostname]
+uah_color = "\x1b[1;33;49m" -- Green = uah = [user]@[hostname]
 cwd_color = "\x1b[1;32;49m" -- Yellow cwd = Current Working Directory
 lamb_color = "\x1b[1;30;49m" -- Light Grey = Lambda Color
 clean_color = "\x1b[37;1m"
