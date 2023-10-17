@@ -8,4 +8,8 @@
 *.opensdf
 *.tlog
 *.log
+~*.*
+
+config/clink_history
 config/clink_history_*
+config/clink_errorlevel_*
