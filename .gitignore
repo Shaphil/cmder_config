@@ -13,3 +13,4 @@
 config/clink_history
 config/clink_history_*
 config/clink_errorlevel_*
+vendor/conemu-maximus5/ConEmu.xml
