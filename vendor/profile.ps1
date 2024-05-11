@@ -228,3 +228,5 @@ $CMDER_INIT_END = Get-Date
 $ElapsedTime = New-TimeSpan -Start $CMDER_INIT_START -End $CMDER_INIT_END
 
 Write-Verbose "Elapsed Time: $($ElapsedTime.TotalSeconds) seconds total"
+
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/jandedobbeleer.omp.json" | Invoke-Expression
