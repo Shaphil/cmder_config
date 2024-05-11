@@ -1,3 +1,4 @@
+# Specific files types
 *.cache
 *.dll
 *.exe
@@ -10,8 +11,14 @@
 *.log
 ~*.*
 
+# Auto updated configs
 config/clink_history
 config/clink_history_*
 config/clink_errorlevel_*
 vendor/conemu-maximus5/ConEmu.xml
 config/user-ConEmu.xml
+
+# IDEs and Editors
+.idea
+.idea/*
+.idea/**
