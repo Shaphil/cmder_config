@@ -22,3 +22,5 @@ config/user-ConEmu.xml
 .idea
 .idea/*
 .idea/**
+.code
+.code/**
